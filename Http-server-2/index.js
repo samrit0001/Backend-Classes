@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req,res) =>{
     req=null;
-    res.send("Hey")
+    res.status(700).send("Hey")
 })
 // express does not handle body it ignores it, so we have to use body-parser
 //body parser module enables us to parse incoming request bodies in middleware
