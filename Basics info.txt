@@ -5,7 +5,7 @@ guidelines for scripting language design
 
 What is javascript ?
 scripting language that conform to ECMA Script 
-it has additional features that are ot of ECMA like DOM
+it has additional features that are not of ECMA like DOM
 
 compiler for javascript : v8 in chrome , spidermoney in firefox
 
@@ -42,9 +42,12 @@ what client need to know for sending request to backend ?
 
 
 what server needs to know ?
-1) Response Headers
+1)Response Headers
 2)Response Body
 3)Status Code 
 
 
 many libraries to create HTTP server but most famous is EXPRESS
+
+
+Difference between HTTP 1,2,3
