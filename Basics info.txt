@@ -1,0 +1,50 @@
+what is ECMA Script ?
+it is script language specification  on which javascript is based 
+guidelines for scripting language design
+
+
+What is javascript ?
+scripting language that conform to ECMA Script 
+it has additional features that are ot of ECMA like DOM
+
+compiler for javascript : v8 in chrome , spidermoney in firefox
+
+
+What is Node.js ?
+on top v8, new backend functionalities added to create new runtime 
+Js became popular for backend, although it was not meant to run in background 
+
+
+What is Bun?
+js is single threaded and node.js is slow 
+so people re-write the JS runtime for backend 
+it is faster and written in zig 
+
+
+what we can do we Node js?
+1) Create CLI 
+2) Create Video Player
+3)Create Games 
+4) Create an HTTP Server
+
+
+What is HTTP server ?
+it is protocol for machines to communicate 
+used in websites, way for frontend to talk with Backend 
+
+
+what client need to know for sending request to backend ?
+1) Protocol : HTTP/HTTPS
+2)Address : URL/IP/Port 
+3)Route
+4)Headers/Body/Query Params
+5)Methods : POST/GET/PUT/DELETE
+
+
+what server needs to know ?
+1) Response Headers
+2)Response Body
+3)Status Code 
+
+
+many libraries to create HTTP server but most famous is EXPRESS
