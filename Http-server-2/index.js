@@ -32,7 +32,15 @@ app.get('/newroute',function(req,res){
         age : 25,
     })
 })
+// we have to provide query browser like this : http://localhost:3000/sum/?n=5&m=12
+app.get('/sum',function(req,res){
+    const n = req.query.n;
+    const m=req.query.m;
+    const ans= n*m;
+    res.send(ans.toString());
+})
 
+ 
 app.listen(port ,()=>{
     console.log('Started Listening at port' , port)
     
